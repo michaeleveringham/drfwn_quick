@@ -4,11 +4,11 @@ Handle full serialization of nested models quickly.
 
 ## Overview
 
-`drfwn_quick` (django rest framework writable nested quick) extends `drf-writable-nested`
+`drfwn-quick` (django rest framework writable nested quick) extends `drf-writable-nested`
 to allow nested models to be serialized rapidly with full data for relations
 by taking advantage of django's `queryset.values()` method.
 
-Example API response with `drfwn_quick`:
+Example API response with `drfwn-quick`:
 ```
 [
     {
@@ -41,7 +41,7 @@ Example without:
 ]
 ```
 
-Note that without `drfwn_quick`, the relational field `"vendors"` is simply
+Note that without `drfwn-quick`, the relational field `"vendors"` is simply
 a representation of database primary keys (IDs).
 
 ## Features
