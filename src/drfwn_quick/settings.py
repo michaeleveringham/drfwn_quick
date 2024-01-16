@@ -1,7 +1,3 @@
-# import os
-
-# if os.getenv("DRFWN_ENV", None) == "test":
-#     settings = {}
 from django.conf import settings
 
 
