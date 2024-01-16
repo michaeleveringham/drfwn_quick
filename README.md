@@ -2,6 +2,10 @@
 
 Handle full serialization of nested models quickly.
 
+## Installation
+
+Install via PyPI, `pip install drfwn-quick`.
+
 ## Overview
 
 `drfwn-quick` (django rest framework writable nested quick) extends `drf-writable-nested`
