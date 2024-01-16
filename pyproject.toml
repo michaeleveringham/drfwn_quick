@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "drfwn-quick"
-version = "0.1.0"
+version = "0.0.0"
 description = ""
 authors = ["LamerLink <36551116+LamerLink@users.noreply.github.com>"]
 license = "MIT"
